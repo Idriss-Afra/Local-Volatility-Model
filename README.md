@@ -27,7 +27,7 @@ The local volatility PDE repricing of market quotes provides a direct measure of
 
 ---
 
-### Market Data
+## Market Data
 
 The `MarketData/` folder includes the market inputs required for the calibration and repricing workflow.
 
