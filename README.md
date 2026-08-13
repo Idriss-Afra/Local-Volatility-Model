@@ -44,7 +44,7 @@ To run the notebook correctly, the current column layout and overall file format
 
 **CAC40 Local Volatility Surface**:
 
-<img width="750" height="750" alt="image" src="https://github.com/user-attachments/assets/374ca8a2-67e1-47f3-ae38-b4f3c18e9a65" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/374ca8a2-67e1-47f3-ae38-b4f3c18e9a65" />
 
 ---
 
