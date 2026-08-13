@@ -23,7 +23,7 @@ It starts by constructing a smooth **implied total variance surface** from marke
 
 The resulting local volatility surface is then embedded in a **PDE pricing framework**.
 
-The local volatility PDE repricing of market quotes provides a direct measure of calibration quality. In this implementation, all repriced options differ by less than **5%** from their market prices, while **128 out of 142 options (about 90%)** show an error below **1%**.
+The local volatility PDE repricing of market quotes provides a direct measure of calibration quality. In this implementation, all repriced options differ by less than **5%** from their market prices, while **133 out of 142 options (about 94%)** show an error below **1%**.
 
 ---
 
@@ -44,7 +44,7 @@ To run the notebook correctly, the current column layout and overall file format
 
 **CAC40 Local Volatility Surface**:
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/30d9eea9-23ab-4328-8891-48ec290b5478" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/374ca8a2-67e1-47f3-ae38-b4f3c18e9a65" />
 
 ---
 
