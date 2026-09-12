@@ -11,6 +11,10 @@ This project combines **SVI total variance calibration**, **Dupire local volatil
 ```text
 Local-Volatility-Model/
 ├── Local Volatility Model.ipynb
+├── MarketData/
+│   ├── CAC40_MarketData_12022025.csv
+│   ├── CAC40_SVI_12022025.csv
+│   └── EURIBOR6M_ZCRates_12022025.csv
 ```
 
 ---
@@ -23,7 +27,7 @@ It starts by constructing a smooth **implied total variance surface** from marke
 
 The resulting local volatility surface is then embedded in a **PDE pricing framework**.
 
-The local volatility PDE repricing of market quotes provides a direct measure of calibration quality. In this implementation, all repriced options differ by less than **5%** from their market prices, while **133 out of 142 options (about 94%)** show an error below **1%**.
+The local volatility PDE repricing of market quotes provides a direct measure of calibration quality. In this implementation, all repriced **CAC40 index options** differ by less than **5%** from their market prices, while **133 out of 142 options (about 94%)** show an error below **1%**.
 
 ---
 
